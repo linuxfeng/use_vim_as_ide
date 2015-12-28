@@ -1307,6 +1307,8 @@ ctags -R --c++-kinds=+l+x+p --fields=+iaSl --extra=+q --language-force=c++ -f st
 let OmniCpp_DefaultNamespaces = ["_GLIBCXX_STD"]
 ```
 
+OmniCppComplete的下载地址：(https://github.com/vim-scripts/OmniCppComplete),(http://www.vim.org/scripts/script.php?script_id=1520)
+
 最后，在 vim 中引入该标签文件。在 .vimrc 中增加如下内容：
 
 ```
