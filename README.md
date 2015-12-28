@@ -587,6 +587,13 @@ let g:SignatureMap = {
 ctags --list-languages
 ```
 
+下载安装ctags：
+```
+cd 源码目录
+./configure
+make
+make install
+```
 学习知识最好方式就是动手实践。我们以 main.cpp、my_class.h、my_class.cpp 三个文件为例。
 
 第一步，准备代码文件。创建演示目录 /data/workplace/example/、库子目录 /data/workplace/example/lib/，创建如下内容的 main.cpp：
