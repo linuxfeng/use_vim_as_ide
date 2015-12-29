@@ -1680,6 +1680,17 @@ rename "std::" "" std::\*
 
 我认为，好的库信息参考手册不仅有对参数、返回值的描述，还应有使用范例，上面介绍的 linux 系统函数 man 做到了，C++ 标准库 man 还未达到我要求。所以，若有网络条件，我更愿意选择查看在线参考，C++ 推荐 http://www.cplusplus.com/reference/ 、http://en.cppreference.com/w/Cppreference:Archives ，前者范例多、后者更新勤；UNIX 推荐 http://pubs.opengroup.org/onlinepubs/9699919799/functions/contents.html 、http://man7.org/linux/man-pages/dir_all_alphabetic.html ，前者基于最新 SUS（Single UNIX Specification，单一 UNIX 规范）、后者偏重 linux 扩展。
 
+<h3 name="5.7">5.7 vim-gitgutter,时时和git对比改动</h3>
+vim-gitgutter下载(https://github.com/airblade/vim-gitgutter.git),
+<div align="center">
+<img src="https://github.com/yangyangwithgnu/use_vim_as_ide/blob/master/pics/vim-gitgutter" alt=""/><br />
+(vim-gitgutter Screenshot)
+</div>
+* 第15行相对HEAD修改过的
+* 第21-24行是新加的
+* 第25-26是删除的行
+Gitgutter还支持在每个diff区块之间跳转（像图中就分了3块）。默认快捷键为[c和]c。当然，也可以自定义mapping，还能暂存<Leader>hs和回退<Leader>hr修改。
+
 <h2 name="6">6 工程管理</h2>
 
 我虽不要求达不到软件工程的高度，但基本的管理还是有必要的，比如，工程文件的管理、多文档编辑、工程环境的保存与恢复。
