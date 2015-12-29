@@ -62,6 +62,7 @@ yangyangwithgnu@yeah.net
 ................[基于语义的智能补全 ](#5.4.2)  
 ........[5.5 由接口快速生成实现框架 ](#5.5)  
 ........[5.6 库信息参考 ](#5.6)  
+........[5.7 vim-gitgutter,时时和git对比改动](#5.7)
 [6 工程管理 ](#6)  
 ........[6.1 工程文件浏览 ](#6.1)  
 ........[6.2 多文档编辑 ](#6.2)  
@@ -1683,7 +1684,7 @@ rename "std::" "" std::\*
 <h3 name="5.7">5.7 vim-gitgutter,时时和git对比改动</h3>
 vim-gitgutter下载(https://github.com/airblade/vim-gitgutter.git),
 <div align="center">
-<img src="https://github.com/yangyangwithgnu/use_vim_as_ide/blob/master/pics/vim-gitgutter" alt=""/><br />
+<img src="https://github.com/linuxfeng/use_vim_as_ide/tree/master/pics/vim-gitgutter" alt=""/><br />
 (vim-gitgutter Screenshot)
 </div>
 * 第15行相对HEAD修改过的
